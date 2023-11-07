@@ -11,6 +11,16 @@ body {
   background-color: #064789;
   color: #EBF2FA;
 }
+@media (max-width: 767px) {
+  body {
+    margin-top: -20px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  body {
+    margin-top: -20px;
+  }
+}
 li {
   list-style: none;
 }

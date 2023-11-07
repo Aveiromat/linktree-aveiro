@@ -18,7 +18,16 @@
 body {
     background-color: #colors[backgroundColor];
     color: #colors[textColor];
+
+    @media @breakpointMobile {
+        margin-top: -20px;
+    }
+
+    @media @breakpointTablet {
+        margin-top: -20px;
+    }
 }
+
 
 li {
     list-style: none;
