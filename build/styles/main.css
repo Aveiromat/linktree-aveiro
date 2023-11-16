@@ -105,19 +105,19 @@ header .profile-avatar {
 }
 .projects-list-item a {
   text-decoration: none;
-  background-color: #427AA1;
+  background-color: #427AA1 !important;
   display: block;
   padding: 16px 20px;
   margin-bottom: 16px;
   text-align: center;
-  color: #EBF2FA;
+  color: #EBF2FA !important;
   font-weight: bold;
   border-radius: 30px;
-  border: 2px solid #EBF2FA;
+  border: 2px solid #EBF2FA !important;
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
   transition: all ease 0.5s;
 }
 .projects-list-item a:hover {
-  color: #EBF2FA;
+  color: #EBF2FA !important;
   background-color: transparent;
 }
