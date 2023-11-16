@@ -1,12 +1,6 @@
 .marginBottom8 {
   margin-bottom: 8px;
 }
-@media (prefers-color-scheme: dark) {
-  body {
-    background-color: red;
-    color: black;
-  }
-}
 * {
   margin: 0;
   padding: 0;
@@ -14,8 +8,8 @@
   font-family: 'Roboto', sans-serif;
 }
 body {
-  background-color: #064789;
-  color: #EBF2FA;
+  background-color: #064789 !important;
+  color: #EBF2FA !important;
 }
 @media (max-width: 767px) {
   body {

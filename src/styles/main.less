@@ -8,13 +8,6 @@
     margin-bottom: 8px;
 }
 
-@media (prefers-color-scheme: dark) {
-    body {
-        background-color: red;
-        color: black;
-    }
-}
-
 * {
     margin: 0;
     padding: 0;
@@ -23,8 +16,8 @@
 }
 
 body {
-    background-color: #colors[backgroundColor];
-    color: #colors[textColor];
+    background-color: #colors[backgroundColor] !important;
+    color: #colors[textColor] !important;
 
     @media @breakpointMobile {
         margin-top: -20px;
