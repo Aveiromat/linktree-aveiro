@@ -1,6 +1,12 @@
 .marginBottom8 {
   margin-bottom: 8px;
 }
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: red;
+    color: black;
+  }
+}
 * {
   margin: 0;
   padding: 0;
