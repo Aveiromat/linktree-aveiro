@@ -16,8 +16,8 @@
 }
 
 body {
-    background-color: #colors[backgroundColor] !important;
-    color: #colors[textColor] !important;
+    background-color: #colors[backgroundColor];
+    color: #colors[textColor];
 
     @media @breakpointMobile {
         margin-top: -20px;
@@ -45,11 +45,11 @@ li {
     @media @breakpointTablet {
         max-width: 80%;
     }
-
+    
     @media @breakpointMobile {
         max-width: 70%;
     }
-
+    
 }
 
 header {
@@ -62,7 +62,7 @@ header {
         box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
         max-width: 120px;
     }
-
+    
     @media @breakpointMin {
         padding-top: 200px;
     }
@@ -70,7 +70,7 @@ header {
 
 .profile-bio {
     text-align: center;
-
+    
     &-name {
         font-size: 16px;
         .marginBottom8();
@@ -94,7 +94,7 @@ header {
     max-width: 240px;
     width: 100%;
     margin: 0 auto;
-
+    
     @media @breakpointMin {
         text-align: center;
         display: grid;
@@ -102,11 +102,10 @@ header {
         grid-gap: 15px;
     }
 
-    li {
+    li{
 
         img {
             transition: all ease .3s;
-
             &:hover {
                 transform: scale(1.3);
             }
@@ -122,25 +121,25 @@ header {
 
 .projects-list {
     margin-top: 32px;
-
-
+    
+    
     &-item {
         a {
             text-decoration: none;
-            background-color: #colors[buttonColor] !important;
+            background-color: #colors[buttonColor];
             display: block;
             padding: 16px 20px;
             margin-bottom: 16px;
             text-align: center;
-            color: #colors[textColor] !important;
+            color: #colors[textColor];
             font-weight: bold;
             border-radius: 30px;
-            border: 2px solid #colors[textColor] !important;
+            border: 2px solid #colors[textColor];
             box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
             transition: all ease .5s;
 
             &:hover {
-                color: #colors[textColor] !important;
+                color: #colors[textColor];
                 background-color: transparent;
             }
         }

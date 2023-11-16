@@ -8,8 +8,8 @@
   font-family: 'Roboto', sans-serif;
 }
 body {
-  background-color: #064789 !important;
-  color: #EBF2FA !important;
+  background-color: #064789;
+  color: #EBF2FA;
 }
 @media (max-width: 767px) {
   body {
@@ -105,19 +105,19 @@ header .profile-avatar {
 }
 .projects-list-item a {
   text-decoration: none;
-  background-color: #427AA1 !important;
+  background-color: #427AA1;
   display: block;
   padding: 16px 20px;
   margin-bottom: 16px;
   text-align: center;
-  color: #EBF2FA !important;
+  color: #EBF2FA;
   font-weight: bold;
   border-radius: 30px;
-  border: 2px solid #EBF2FA !important;
+  border: 2px solid #EBF2FA;
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
   transition: all ease 0.5s;
 }
 .projects-list-item a:hover {
-  color: #EBF2FA !important;
+  color: #EBF2FA;
   background-color: transparent;
 }
