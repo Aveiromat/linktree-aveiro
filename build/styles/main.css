@@ -8,17 +8,22 @@
   font-family: 'Roboto', sans-serif;
 }
 body {
-  background-color: #064789;
-  color: #EBF2FA;
-}
-@media (max-width: 767px) {
-  body {
-    margin-top: -20px;
-  }
+  background-color: #2C2C54;
+  color: #FFF8F0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
 }
 @media (min-width: 768px) and (max-width: 1023px) {
   body {
-    margin-top: -20px;
+    height: 100%;
+  }
+}
+@media (max-width: 767px) {
+  body {
+    height: 100%;
   }
 }
 li {
@@ -28,7 +33,7 @@ li {
   max-width: 960px;
   width: 100%;
   margin: 0 auto;
-  height: 100vh;
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -41,6 +46,7 @@ li {
 @media (max-width: 767px) {
   .container {
     max-width: 70%;
+    transform: scale(0.8);
   }
 }
 header {
@@ -51,7 +57,7 @@ header .profile-avatar {
   margin: 0 auto 24px;
   border-radius: 50%;
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
-  max-width: 120px;
+  max-width: 250px;
 }
 @media (max-width: 299px) {
   header {
@@ -62,21 +68,21 @@ header .profile-avatar {
   text-align: center;
 }
 .profile-bio-name {
-  font-size: 16px;
+  font-size: 32px;
   margin-bottom: 8px;
 }
 .profile-bio-subtitle {
-  font-size: 14px;
+  font-size: 24px;
   margin-bottom: 8px;
 }
 .profile-bio-description {
-  font-size: 14px;
+  font-size: 16px;
   opacity: 0.7;
 }
 .social-links {
   display: flex;
   justify-content: space-between;
-  max-width: 240px;
+  max-width: 320px;
   width: 100%;
   margin: 0 auto;
 }
@@ -89,6 +95,7 @@ header .profile-avatar {
   }
 }
 .social-links li img {
+  width: 40px;
   transition: all ease 0.3s;
 }
 .social-links li img:hover {
@@ -105,19 +112,19 @@ header .profile-avatar {
 }
 .projects-list-item a {
   text-decoration: none;
-  background-color: #427AA1;
+  background-color: #9E2B25;
   display: block;
   padding: 16px 20px;
   margin-bottom: 16px;
   text-align: center;
-  color: #EBF2FA;
+  color: #FFF8F0;
   font-weight: bold;
   border-radius: 30px;
-  border: 2px solid #EBF2FA;
+  border: 2px solid #FFF8F0;
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
   transition: all ease 0.5s;
 }
 .projects-list-item a:hover {
-  color: #EBF2FA;
+  color: #FFF8F0;
   background-color: transparent;
 }
