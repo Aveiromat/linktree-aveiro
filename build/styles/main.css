@@ -40,14 +40,13 @@ li {
 }
 @media (min-width: 768px) and (max-width: 1023px) {
   .container {
-    max-width: 80%;
+    max-width: 100%;
   }
 }
 @media (max-width: 767px) {
   .container {
-    max-width: 70%;
-    transform: scale(0.8);
-    margin-top: -32px;
+    transform: scale(0.9);
+    max-width: 90%;
   }
 }
 header {
