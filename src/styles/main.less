@@ -38,13 +38,13 @@ li {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    transform: scale(0.9);
 
     @media @breakpointTablet {
         max-width: 90%;
     }
 
     @media @breakpointMobile {
-        transform: scale(0.9);
         max-width: 90%;
     }
 
@@ -52,6 +52,10 @@ li {
 
 header {
     padding-bottom: 24px;
+
+    @media @breakpointMobile {
+        padding-bottom: 8px;
+    }
 
     .profile-avatar {
         display: block;
@@ -62,6 +66,7 @@ header {
 
         @media @breakpointMobile {
             max-width: 180px;
+            margin: 0 auto 8px;
         }
     }
 
@@ -113,6 +118,10 @@ header {
             &:hover {
                 transform: scale(1.3);
             }
+
+            @media @breakpointMobile {
+                height: 30px;
+            }
         }
 
         @media @breakpointMin {
@@ -126,12 +135,20 @@ header {
 .projects-list {
     margin-top: 32px;
 
+    @media @breakpointMobile {
+        margin-top: 8px;
+    }
 
     &-item {
         a {
             text-decoration: none;
             background-color: #colors[buttonColor];
-            display: block;
+            display: flex;
+            /* Usado para alinhamento flexível */
+            align-items: center;
+            /* Centraliza verticalmente */
+            justify-content: center;
+            /* Centraliza horizontalmente */
             padding: 16px 20px;
             margin-bottom: 16px;
             text-align: center;
@@ -141,12 +158,21 @@ header {
             border: 2px solid #colors[textColor];
             box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
             transition: all ease .5s;
+            min-width: 200px;
+            /* Largura mínima */
+            min-height: 60px;
+            /* Altura mínima */
 
             &:hover {
                 color: #colors[textColor];
                 background-color: transparent;
             }
+
+            @media @breakpointMobile {
+                padding: 8px 10px;
+                min-width: 150px;
+                min-height: 50px;
+            }
         }
     }
-
 }
