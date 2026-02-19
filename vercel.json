@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "destination": "https://aveiro.vercel.app/$1",
+      "permanent": true
+    }
+  ]
+}
